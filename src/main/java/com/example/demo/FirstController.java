@@ -13,4 +13,9 @@ public class FirstController {
 	String getData() {
 		return "inaganti ashok"+username1;
 	}
+	
+	@GetMapping(path = "/")
+	String getData1() {
+		return "<h1>ingantiashok</h1>";
+	}
 }
